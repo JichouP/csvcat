@@ -38,7 +38,7 @@ mod tests {
 
     #[test]
     fn test_read_file() {
-        let v = read_column_from_path("sample/sample.csv", 0).unwrap();
+        let v = read_column_from_path("sample/sample1.csv", 0).unwrap();
         assert_eq!(v, vec!["1", "2", "3", "4", "5", "6", "7", "8"]);
     }
 }
